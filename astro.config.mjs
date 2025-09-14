@@ -6,7 +6,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dinaryunusov.github.io/wholesomestreet/',
-  base: '/wholesomestreet/',
+  site: 'https://www.wholesomestreet.com',
+  base: '/',
   integrations: [tailwind(), sitemap(), icon()],
 });
