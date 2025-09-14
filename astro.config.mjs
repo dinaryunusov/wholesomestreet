@@ -6,9 +6,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  redirects: {
-    "/blog": "/",
-  },
-  site: "https://example.treelink.com",
+  site: 'https://dinaryunusov.github.io/wholesomestreet/',
+  base: '/wholesomestreet/',
   integrations: [tailwind(), sitemap(), icon()],
 });
