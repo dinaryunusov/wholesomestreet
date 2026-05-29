@@ -1,6 +1,6 @@
 {
   "name": "Wholesome Street",
-  "bio": "This is an Uptown-bound Express train. The next stop is Wholesome Street",
+  "bio": "Next stop: Wholesome Street",
   "profilePicture": "/profile-picture.jpg",
   "url": "https://wholesomestreet.com",
   "blog": false,
@@ -34,11 +34,16 @@
   "customLinks": [
     {
       "id": "1728534585738",
+      "title": "Main store",
+      "url": "https://shop.wholesomestreet.com"
+    },
+    {
+      "id": "1728534585739",
       "title": "Bricklink store",
       "url": "https://bricklink.wholesomestreet.com"
     },
     {
-      "id": "1728534585739",
+      "id": "1728534585740",
       "title": "Brick Owl store",
       "url": "https://brickowl.wholesomestreet.com"
     }
