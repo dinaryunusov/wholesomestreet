@@ -7,17 +7,17 @@ import CustomLink from "@/components/CustomLink.astro";
 ---
 
 <Introduction />
-<ul class="flex justify-center gap-4 py-12">
-  {
-    SITE.iconLinks.map((link) => {
-      return <IconLink url={link.url} icon={link.icon} />;
-    })
-  }
-</ul>
-<ul class="grid gap-y-6 pb-12 pt-4">
+<ul class="grid gap-y-3 pb-12 pt-12">
   {
     SITE.customLinks.map((link) => {
       return <CustomLink url={link.url}>{link.title}</CustomLink>;
+    })
+  }
+</ul>
+<ul class="flex justify-center gap-2 py-6">
+  {
+    SITE.iconLinks.map((link) => {
+      return <IconLink url={link.url} icon={link.icon} />;
     })
   }
 </ul>

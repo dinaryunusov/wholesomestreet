@@ -3,24 +3,24 @@ import { Image } from "astro:assets";
 
 import { SITE } from "@/siteConfig";
 
-import profilePicture from "@/assets/profile-picture.jpg";
+import profilePicture from "@/assets/profile-picture-banner.png";
 ---
 
 <div class="mt-8 py-4">
   <Image
     src={profilePicture}
     alt={SITE.name}
-    height={256}
-    width={256}
+    height={4800}
+    width={1200}
     loading="eager"
     draggable="false"
-    class="mx-auto size-32 rounded-full"
+    class="mx-auto w-auto rounded-l-lg"
   />
-  <img
-  src="/images/banner_logo_single_line.png"
+  <!--img
+  src="/images/banner_logo_two_lines.png"
   alt="Site Logo"
-  class="mx-auto h-24 w-auto"
-  />
+  class="mx-auto h-20 w-auto"
+  /-->
   <!--h1 class="mt-4 text-center text-3xl font-semibold">{SITE.name}</h1-->
   <p
     class="mt-1 text-balance text-center text-sm text-lightModeForegroundMuted dark:text-darkModeForegroundMuted"

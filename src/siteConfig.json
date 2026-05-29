@@ -1,49 +1,54 @@
 {
   "name": "Wholesome Street",
-  "bio": "Next stop: Wholesome Street",
+  "bio": false,
   "profilePicture": "/profile-picture.jpg",
   "url": "https://wholesomestreet.com",
   "blog": false,
   "iconLinks": [
     {
       "id": "1728534577184",
-      "icon": "instagram",
-      "url": "https://instagram.com/thewholesomestreet"
-    },
-    {
-      "id": "1728534577185",
       "icon": "facebook",
       "url": "https://facebook.com/thewholesomestreet"
     },
     {
-      "id": "1757838290392",
-      "icon": "x",
-      "url": "https://x.com/wholesomestreet"
+      "id": "1728534577185",
+      "icon": "instagram",
+      "url": "https://instagram.com/thewholesomestreet"
     },
     {
-      "id": "1757838595400",
+      "id": "1757838698937",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/@thewholesomestreet"
+    },
+    {
+      "id": "1757838290392",
       "icon": "tiktok",
       "url": "https://tiktok.com/@thewholesomestreet"
     },
     {
-      "id": "1757838698937",
+      "id": "1757838595400",
+      "icon": "x",
+      "url": "https://x.com/wholesomestreet"
+    },
+    {
+      "id": "1757838698938",
       "icon": "email",
       "url": "mailto:say.hi@wholesomesteet.com"
     }
   ],
   "customLinks": [
     {
-      "id": "1728534585738",
+      "id": "1728534585739",
       "title": "Main store",
       "url": "https://shop.wholesomestreet.com"
     },
     {
-      "id": "1728534585739",
+      "id": "1728534585740",
       "title": "Bricklink store",
       "url": "https://bricklink.wholesomestreet.com"
     },
     {
-      "id": "1728534585740",
+      "id": "1728534585741",
       "title": "Brick Owl store",
       "url": "https://brickowl.wholesomestreet.com"
     }
